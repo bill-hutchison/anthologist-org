@@ -13,7 +13,7 @@ permalink: /
     <div class="about-contact">
       <div class="contact-item">
         <span class="contact-label">Institution</span>
-        <span>University of Chicago</span>
+        <a href="https://writing-program.uchicago.edu/people/" target="_blank">University of Chicago</a>
       </div>
       <div class="contact-item">
         <span class="contact-label">CV</span>
