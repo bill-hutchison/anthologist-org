@@ -21,7 +21,7 @@ permalink: /
       </div>
       <div class="contact-item">
         <span class="contact-label">Contact</span>
-        <a href="/contact">Get in touch</a>
+        <a href="/contact">Hi!</a>
       </div>
     </div>
   </aside>
