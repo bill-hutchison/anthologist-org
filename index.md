@@ -33,9 +33,9 @@ permalink: /
     <p>I teach writing at the University of Chicago, where I also earned my PhD. I design courses that treat writing as a form of thinking: a practice of attention, revision, and intellectual honesty. My students learn to write by learning to read carefully, argue precisely, and take their own ideas seriously.</p>
 
     <p>My current work connects writing pedagogy and technological change. I co-chair the Writing, Education, and AI Working Group at the University of Chicago and have presented widely on what it means to teach writing in the age of generative AI. The questions that interest me seem newly urgent. 
-    <br>What does it mean to author something? 
-    <br>Where does knowledge come from? 
-    <br>What is writing really for?</p>
+    <br><br>What does it mean to author something? 
+    <br><br>Where does knowledge come from? 
+    <br><br>What is writing really for?</p>
   </div>
 
 </div>
