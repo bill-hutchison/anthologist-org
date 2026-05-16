@@ -1,0 +1,38 @@
+---
+layout: default
+title:
+permalink: /
+---
+
+<div class="about-layout">
+
+  <aside class="about-sidebar">
+    <img class="about-photo"
+         src="{{ '/assets/images/bill.jpg' | relative_url }}"
+         alt="Photo of Bill Hutchison" />
+    <div class="about-contact">
+      <div class="contact-item">
+        <span class="contact-label">Institution</span>
+        <span>University of Chicago</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">CV</span>
+        <a href="{{ '/assets/files/Bill-Hutchison-CV.pdf' | relative_url }}" target="_blank">Download PDF</a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Contact</span>
+        <a href="/contact">Get in touch</a>
+      </div>
+    </div>
+  </aside>
+
+  <div class="about-body">
+    <h1>Bill Hutchison</h1>
+    <span class="role">Assistant Instructional Professor<br>Writing Program · University of Chicago</span>
+
+    <p>Bill Hutchison teaches writing at the University of Chicago, where he also earned his PhD. He designs courses that treat writing as a form of thinking: a practice of attention, revision, and intellectual honesty. His students learn to write by learning to read carefully, argue precisely, and take their own ideas seriously.</p>
+
+    <p>His current work sits at the intersection of writing pedagogy and technological change. He co-chairs the Writing, Education, and AI Working Group at the University of Chicago and has presented widely on what it means to teach writing in the age of generative AI. The questions that currently interest him are newly urgent. What does it mean to author something? Where does knowledge come from? What is writing really for?</p>
+  </div>
+
+</div>

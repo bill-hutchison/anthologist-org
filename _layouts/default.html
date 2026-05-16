@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title }} — {% endif %}Bill Hutchison</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32.png' | relative_url }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16.png' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Fragment+Mono@400&display=swap" rel="stylesheet" />
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBSCKJG9Q7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XBSCKJG9Q7');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">Bill Hutchison</a>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+          {% if item.dropdown %}
+            <div class="nav-dropdown">
+              <span class="nav-link nav-dropdown-trigger">{{ item.name }}</span>
+              <div class="nav-dropdown-menu">
+                {% for child in item.dropdown %}
+                  <a href="{{ child.url | relative_url }}" class="nav-dropdown-item {% if page.url == child.url %}active{% endif %}">{{ child.name }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          {% elsif item.url contains '.pdf' %}
+            <a href="{{ item.url | relative_url }}" class="nav-link" target="_blank">{{ item.name }}</a>
+          {% else %}
+            <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url %}active{% endif %}">{{ item.name }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>Bill Hutchison &nbsp;·&nbsp; University of Chicago</p>
+  </footer>
+
+</body>
+</html>

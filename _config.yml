@@ -1,0 +1,28 @@
+title: Bill Hutchison
+description: Writing professor and educator, University of Chicago
+url: "https://anthologist.org"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:name
+
+nav:
+  - name: About
+    url: /
+  - name: Teaching
+    url: /teaching
+  - name: ICA—Invention
+    dropdown:
+      - name: Summer 2026
+        url: /ica-invention-summer-2026
+      - name: Fall 2026
+        url: /ica-invention-fall-2026
+  - name: CV
+    url: /assets/files/Bill-Hutchison-CV.pdf
+  - name: Contact
+    url: /contact
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
