@@ -12,7 +12,7 @@ permalink: /teaching
       <h2 class="course-title">Inquiry, Conversation, Argument: What Kind of Future Does Invention Imagine?</h2>
       <a href="/ica-invention-summer-2026" class="course-btn">Course Site →</a>
     </div>
-    <p class="course-meta">University of Chicago · Writing Program · 2025–present</p>
+    <p class="course-meta">University of Chicago · Writing Program</p>
   </div>
 
   <p class="course-description">Invention is never just a technical breakthrough: it's a cultural event, a story about the future, a way of shaping relationships and distributing power. In this section of Inquiry, Conversation, Argument, we'll explore invention as a rhetorical and analytical problem: How do we talk about innovation? Who gets to invent, and who is left out? What kinds of futures do our inventions assume or erase?</p>
