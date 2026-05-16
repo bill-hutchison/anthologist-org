@@ -562,3 +562,90 @@ hr { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
   background: var(--paper);
   border-color: var(--rule-light);
 }
+
+/* ── Course Schedule ──────────────────────────────────────── */
+
+.schedule {
+  max-width: 640px;
+  margin-top: 2rem;
+}
+
+.schedule-part {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--ink);
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.schedule-week {
+  margin-bottom: 1.5rem;
+}
+
+.schedule-week-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin: 1.25rem 0 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.schedule-week-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--rule-light);
+}
+
+.schedule-list {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule-list li {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule-light);
+  font-size: 0.9rem;
+  align-items: baseline;
+}
+
+.schedule-list li:last-child { border-bottom: none; }
+
+.schedule-date {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  padding-top: 0.1rem;
+}
+
+.schedule-items {
+  color: var(--ink-mid);
+  line-height: 1.55;
+}
+
+.schedule-note {
+  color: var(--ink-faint);
+  font-size: 0.85em;
+}
+
+.schedule-due .schedule-date,
+.schedule-due .schedule-items {
+  color: var(--copper);
+  font-weight: 500;
+}
+
+.schedule-due .schedule-note {
+  color: var(--copper-pale);
+  font-weight: 400;
+}
