@@ -10,7 +10,7 @@ permalink: /teaching
   <div class="course-header">
     <div class="course-title-row">
       <h2 class="course-title">Inquiry, Conversation, Argument: What Kind of Future Does Invention Imagine?</h2>
-      <a href="/ica-invention" class="course-btn">Course Site →</a>
+      <a href="/ica-invention-summer-2026" class="course-btn">Course Site →</a>
     </div>
     <p class="course-meta">University of Chicago · Writing Program · 2025–present</p>
   </div>
