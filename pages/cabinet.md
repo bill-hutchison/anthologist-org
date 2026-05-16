@@ -4,6 +4,10 @@ title: The Anthologist's Cabinet of Musical Marvels
 permalink: /cabinet
 ---
 
+<img src="{{ '/assets/images/anthcab-logo.jpg' | relative_url }}"
+     alt="The Anthologist's Cabinet of Musical Marvels"
+     class="cabinet-logo" />
+
 # The Anthologist's Cabinet of Musical Marvels
 
 <p>From 2007–2010, I hosted a music show on public radio, KSFR 101.1 in Santa Fe, New Mexico. These are the archives of that show.</p>
