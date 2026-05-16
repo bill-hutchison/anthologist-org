@@ -30,9 +30,12 @@ permalink: /
     <h1>Bill Hutchison</h1>
     <span class="role">Assistant Instructional Professor<br>Writing Program · University of Chicago</span>
 
-    <p>I teach writing at the University of Chicago, where I also earned my PhD. I designs courses that treat writing as a form of thinking: a practice of attention, revision, and intellectual honesty. My students learn to write by learning to read carefully, argue precisely, and take their own ideas seriously.</p>
+    <p>I teach writing at the University of Chicago, where I also earned my PhD. I design courses that treat writing as a form of thinking: a practice of attention, revision, and intellectual honesty. My students learn to write by learning to read carefully, argue precisely, and take their own ideas seriously.</p>
 
-    <p>My current work connects writing pedagogy and technological change. I co-chair the Writing, Education, and AI Working Group at the University of Chicago and have presented widely on what it means to teach writing in the age of generative AI. The questions that interest me seem newly urgent. What does it mean to author something? Where does knowledge come from? What is writing really for?</p>
+    <p>My current work connects writing pedagogy and technological change. I co-chair the Writing, Education, and AI Working Group at the University of Chicago and have presented widely on what it means to teach writing in the age of generative AI. The questions that interest me seem newly urgent. 
+    <br>What does it mean to author something? 
+    <br>Where does knowledge come from? 
+    <br>What is writing really for?</p>
   </div>
 
 </div>
